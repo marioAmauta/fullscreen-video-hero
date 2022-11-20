@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-message {
+  position: absolute;
+  bottom: 3rem;
+}
+
+.hero-message a {
+  font-size: 1.1rem;
+  color: yellow;
+  text-shadow: 2px 4px 10px red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hero-logo {
+  position: absolute;
+  width: 90%;
+  max-width: 750px;
+}
+
+video {
+  height: 100%;
+  width: auto;
+}
+
+.about-me {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.about-me h2 {
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+
+.about-me ul {
+  padding: 1rem 0;
+  margin-left: 2rem;
+}
+
+.about-me li {
+  margin: 1rem 0;
+}
+
+.whatsapp-container {
+  margin: 3rem auto;
+  text-align: center;
+  width: 100%;
+}
+
+.whatsapp-logo {
+  height: 10rem;
+}
